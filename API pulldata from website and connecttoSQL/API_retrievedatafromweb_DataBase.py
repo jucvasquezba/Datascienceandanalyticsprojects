@@ -42,7 +42,7 @@ data_bundesbank['Zeit'] = data_bundesbank['Zeit'].str.get(0)
 data_bundesbank['Wert'] = data_bundesbank['Wert'].str.get(0)
 data_bundesbank['Wertstatus'] = data_bundesbank['Wertstatus'].str.get(0)
 print(data_bundesbank)
-print(data_bundesbank.to_csv('/Users/juancamilovasquezbarrera/Documents/out.csv')  )
+print(data_bundesbank.to_csv('/Users/out.csv')  )
 
 
 #Connetion with MySQL Workbench
